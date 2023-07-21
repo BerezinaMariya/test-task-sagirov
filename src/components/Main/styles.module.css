@@ -1,0 +1,104 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.content__container {
+  margin-top: 108px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.content__text {
+  margin: 0;
+  text-align: left;
+  background-image: linear-gradient(to right, #FFFFFF, #ff4006);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.content__header {
+  font-size: 58px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+
+.content__paragraph {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.content__buttonBorder {
+  width: 180px;
+  height: 35px;
+  margin-top: 79px;
+  position: relative;
+  cursor: pointer;
+}
+
+.content__buttonBorder:before,
+.content__buttonBorder:after
+ {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+}
+
+.content__buttonBorder:before {
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid #FFFFFF;
+  border-left: 1px solid #FFFFFF
+}
+
+.content__buttonBorder:after {
+  top: 0;
+  right: 0;
+  border-top: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+}
+
+.content__button {
+  width: 100%;
+  height: 100%;
+  border: 1px solid transparent;
+  border-image: linear-gradient(to right top, #263e66 0%, #09213d 36%, #111f2d 63%, #23599c 100%);
+  -moz-border-image: -moz-linear-gradient(to right top, #263e66 0%, #09213d 36%, #111f2d 63%, #23599c 100%);
+  -webkit-border-image: -webkit-linear-gradient(to right top, #263e66 0%, #09213d 36%, #111f2d 63%, #23599c 100%);
+  border-image-slice: 1;
+  background: transparent;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 100;
+  color: #FFFFFF80;
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+.content__button:hover {
+  color: #FFFFFF;
+  transition: 0.3s color ease;
+}
+
+.content__line {
+  position: absolute;
+}
+
+.content__planet {
+  position: absolute;
+}
+
+.content__blocks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 38px;
+  z-index: 2;
+}
+

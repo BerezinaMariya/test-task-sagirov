@@ -1,0 +1,49 @@
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 185px;
+    height: 185px;
+    background: #FFFFFF08;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.block:hover {
+    cursor: pointer;
+    border-image: linear-gradient(to left top, #ffffff59 0%, transparent 50%);
+    -moz-border-image: -moz-linear-gradient(to left top, #ffffff59 0%, transparent 50%);
+    -webkit-border-image: -webkit-linear-gradient(to left top, #ffffff59 0%, transparent 50%);
+    border-image-slice: 1;
+}
+
+.variant-white {
+    background-image: linear-gradient(to right, #FFFFFF, #76747a);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.variant-gray {
+    background-image: linear-gradient(to right, #bdbdbd, #a3a3a3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.block__text {
+    margin: 0;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.block__text_s {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.block__text_xl {
+    font-size: 60px;
+    font-weight: 700;
+}

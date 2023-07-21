@@ -1,0 +1,33 @@
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu__item {
+  list-style-type: none;
+}
+
+.menu__link {
+  margin-left: 40px;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #cecfd0;
+}
+
+.menu__link:hover {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #3d3d3d;
+  color: #3d3d3d;
+}
+
+.Фигура_3 {
+  background-color: rgb(61, 61, 61);
+  position: absolute;
+  left: 959px;
+  top: 66px;
+  width: 85px;
+  height: 1px;
+  z-index: 32;
+}
