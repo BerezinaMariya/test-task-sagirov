@@ -5,22 +5,22 @@ function NavMenu() {
         <nav>
             <ul className={styles.menu}>
                 <li className={styles.menu__item}>
-                    <a className={styles.menu__link} href="">Главная</a>
+                    <a className={styles.menu__link} href="../../../public/index.html">Главная</a>
                 </li>
                 <li className={styles.menu__item}>
-                    <a className={styles.menu__link} href="">Технологии</a>
+                    <a className={styles.menu__link} href="../../../public/index.html">Технологии</a>
                 </li>
                 <li className={styles.menu__item}>
-                    <a className={styles.menu__link} href="">График полетов</a>
+                    <a className={styles.menu__link} href="../../../public/index.html">График полетов</a>
                 </li>
                 <li className={styles.menu__item}>
-                    <a className={styles.menu__link} href="">Гарантии</a>
+                    <a className={styles.menu__link} href="../../../public/index.html">Гарантии</a>
                 </li>
                 <li className={styles.menu__item}>
-                    <a className={styles.menu__link} href="">О компании</a>
+                    <a className={styles.menu__link} href="../../../public/index.html">О компании</a>
                 </li>
                 <li className={styles.menu__item}>
-                    <a className={styles.menu__link} href="">Контакты</a>
+                    <a className={styles.menu__link} href="../../../public/index.html">Контакты</a>
                 </li>
             </ul>
         </nav>
