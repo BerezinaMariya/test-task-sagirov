@@ -9,7 +9,7 @@ function Header() {
             <div className={styles.header__content}>
                 <div className={styles.header__logoBorder}>
                     <span>
-                        <img className={styles.header__logo} src={logo} alt="Логотип проекта - надпись SPACEX"/>
+                        <img id="logo" className={styles.header__logo} src={logo} alt="Логотип проекта - надпись SPACEX"/>
                     </span>
                 </div>
                 <NavMenu/>
